@@ -1,0 +1,20 @@
+.mole {
+    width: 100px;
+    height: 100px;
+    background-color: #333;
+    border-radius: 50%;
+    transition: transform 0.2s, background-color 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .mole.active {
+    background-color: #ffcc00;
+    cursor: pointer;
+    transform: scale(1.1);
+  }
+  
+  .mole.active:hover {
+    background-color: #ffaa00;
+  }
