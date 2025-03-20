@@ -1,12 +1,27 @@
-# React + Vite
+# 🎯 Whack-a-Mole - Dark Mode  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fun **Whack-a-Mole** game built with **React (Vite)**. Click the moles as fast as you can before the timer runs out!  
 
-Currently, two official plugins are available:
+## 🛠 Features  
+✔️ **Bigger & Animated Moles**  
+✔️ **Smooth hover & click effects**  
+✔️ **30-second timer**  
+✔️ **Dark mode UI**  
+✔️ **Play Again button**  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📂 Project Structure  
+```bash
+whack-a-mole/
+│── public/
+│── src/
+│   ├── components/
+│   │   ├── GameBoard.jsx
+│   │   ├── GameBoard.css
+│   │   ├── Mole.jsx
+│   │   ├── Mole.css
+│   ├── App.jsx
+│   ├── App.css
+│   ├── main.jsx
+│── package.json
+│── vite.config.js
+│── README.md
