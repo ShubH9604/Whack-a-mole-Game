@@ -1,4 +1,4 @@
-# 🎯 Whack-a-Mole - Dark Mode  
+# 🎯 Whack-a-Mole
 
 A fun **Whack-a-Mole** game built with **React (Vite)**. Click the moles as fast as you can before the timer runs out!  
 
